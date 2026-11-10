@@ -1,17 +1,77 @@
-# login_signup_app
+# Login & Sign Up App
 
-A new Flutter project.
+A simple Flutter application featuring Login and Sign Up screens with reusable UI components and screen navigation.
+
+## Features
+
+- Login screen with email and password fields.
+- Sign Up screen with full name, email, password, and confirm password fields.
+- Password fields hide entered text.
+- Navigation between Login and Sign Up screens.
+- Reusable text field and button widgets.
+- App logo loaded from local assets.
+- Responsive layout using `SafeArea` and `SingleChildScrollView`.
+
+## Technologies Used
+
+- Flutter
+- Dart
+- Material Design
+
+## Project Structure
+
+```text
+lib/
+├── main.dart
+├── pages/
+│   ├── login_page.dart
+│   └── sign_up_page.dart
+└── widgets/
+    ├── app_text_field.dart
+    └── app_button.dart
+
+assets/
+└── app_logo.png
+```
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+git clone YOUR_REPOSITORY_URL
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+2. Navigate to the project directory:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+cd login_signup_app
+```
+
+3. Install dependencies:
+
+```bash
+flutter pub get
+```
+
+4. Run the application:
+
+```bash
+flutter run
+```
+
+To run in Chrome:
+
+```bash
+flutter run -d chrome
+```
+
+## Notes
+
+This project focuses on UI development, reusable Flutter widgets, and basic navigation. Authentication and backend functionality are not implemented.
+
+## Author
+
+Nour Alhuda Ahmed
+
+Software Engineering Student
